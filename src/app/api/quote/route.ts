@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
-import { getPayload } from '@/lib/payload'
 import { sendQuoteEmail } from '@/lib/email'
 
 const quoteSchema = z.object({
@@ -25,27 +24,7 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const data = parsed.data
-
-    // Save to Payload
-    const payload = await getPayload()
-    await payload.create({
-      collection: 'quote-submissions',
-      data: {
-        fullName: data.fullName,
-        phone: data.phone,
-        email: data.email,
-        insuranceType: data.insuranceType,
-        state: data.state,
-        language: data.language,
-        message: data.message,
-        status: 'new',
-        submittedAt: new Date().toISOString(),
-      },
-    })
-
-    // Send email
-    await sendQuoteEmail(data)
+    await sendQuoteEmail(parsed.data)
 
     return NextResponse.json({ ok: true })
   } catch (error) {

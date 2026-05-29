@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server'
-import { getPayload } from '@/lib/payload'
 
 interface GoogleReview {
   author_name: string
@@ -15,7 +14,6 @@ interface NormalizedReview {
   text: string
   time: number
   profilePhoto?: string
-  location?: string
 }
 
 async function fetchGoogleReviews(): Promise<NormalizedReview[]> {
@@ -47,28 +45,6 @@ async function fetchGoogleReviews(): Promise<NormalizedReview[]> {
     }))
 }
 
-async function getPayloadFallback(): Promise<NormalizedReview[]> {
-  try {
-    const payload = await getPayload()
-    const result = await payload.find({
-      collection: 'testimonials',
-      where: { active: { equals: true } },
-      sort: 'order',
-      limit: 6,
-    })
-
-    return result.docs.map((t) => ({
-      author: t.name as string,
-      rating: t.rating as number,
-      text: t.quote as string,
-      time: Date.now() / 1000,
-      location: t.location as string | undefined,
-    }))
-  } catch {
-    return []
-  }
-}
-
 export const revalidate = 86400
 
 export async function GET() {
@@ -76,8 +52,6 @@ export async function GET() {
     const reviews = await fetchGoogleReviews()
     return NextResponse.json({ reviews })
   } catch {
-    // Fall back to Payload testimonials
-    const fallback = await getPayloadFallback()
-    return NextResponse.json({ reviews: fallback, source: 'fallback' })
+    return NextResponse.json({ reviews: [] })
   }
 }
