@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "personal": "Personal",
+    "commercial": "Comercial",
+    "contact": "Contacto",
+    "getQuote": "Obtener Cotización"
+  },
+  "hero": {
+    "headline": "Piensa en Seguros — Piensa en Nosotros.",
+    "subheadline": "Tu solución completa para todas tus necesidades de seguro — para tu familia, tu salud y tu negocio.",
+    "body": "Somos asesores independientes. Eso significa que no trabajamos para una sola compañía de seguros — trabajamos para ti. Comparamos múltiples aseguradoras para encontrar la mejor cobertura al mejor precio, siempre.",
+    "primaryCta": "Obtener Cotización",
+    "secondaryCta": "Conocer Más"
+  },
+  "trustBar": {
+    "independent": "Asesor Independiente",
+    "licensed": "Licenciado en 8 Estados",
+    "bilingual": "Inglés y Español",
+    "coverage": "Personal y Comercial",
+    "carriers": "Muchas Aseguradoras, Una Llamada"
+  },
+  "services": {
+    "headline": "Lo Que Cubrimos",
+    "family": {
+      "title": "Tú y Tu Familia",
+      "body": "Desde seguro médico y de vida hasta dental, Medicare y tu auto — nos aseguramos de que las personas que amas siempre estén protegidas.",
+      "cta": "Seguros Personales →"
+    },
+    "business": {
+      "title": "Tu Negocio",
+      "body": "Ya seas dueño de un negocio pequeño, trabajador independiente o manejes una flota de camiones — tenemos la cobertura correcta para mantener tu negocio en marcha.",
+      "cta": "Seguros Comerciales →"
+    }
+  },
+  "why": {
+    "headline": "No Vendemos Seguros. Te Asesoramos.",
+    "independent": {
+      "title": "Somos Independientes",
+      "body": "Trabajamos con muchas aseguradoras para siempre encontrar la mejor opción para ti, no para nosotros."
+    },
+    "accessible": {
+      "title": "Somos Accesibles",
+      "body": "Llámanos, escríbenos o contáctanos por WhatsApp. Respondemos en menos de 2 horas y estamos disponibles más allá del horario habitual."
+    },
+    "language": {
+      "title": "Hablamos Tu Idioma",
+      "body": "Atendemos a nuestros clientes en inglés y español, y entendemos las necesidades de las comunidades diversas en toda la Florida y más allá."
+    }
+  },
+  "testimonials": {
+    "headline": "Lo Que Dicen Nuestros Clientes"
+  },
+  "instagram": {
+    "headline": "Síguenos @Provisioninsurance",
+    "link": "Ver en Instagram"
+  },
+  "finalCta": {
+    "text": "¿No sabes por dónde empezar? Llámanos — llámanos en cualquier momento — siempre estamos felices de ayudar.",
+    "button": "Llamar Ahora"
+  },
+  "about": {
+    "headline": "Una Vocación de Ayudar a las Personas.",
+    "credentialsTitle": "Credenciales y Licencias"
+  },
+  "personalLines": {
+    "headline": "Protegiéndote a Ti y a Todos los que Amas.",
+    "getQuote": "Obtener Cotización"
+  },
+  "commercialLines": {
+    "headline": "Protegiendo Tu Negocio Para Que Puedas Enfocarte en Manejarlo.",
+    "scheduleCall": "Agendar una Llamada"
+  },
+  "contact": {
+    "headline": "Hablemos. Estamos Aquí Para Ti.",
+    "subheadline": "Ya sea que tengas una pregunta, necesites una cotización o simplemente quieras revisar lo que ya tienes — comunícate. Llámanos en cualquier momento — siempre estamos felices de ayudar.",
+    "calendlyLabel": "¿Prefieres agendar una llamada? Elige el horario que mejor te convenga.",
+    "form": {
+      "fullName": "Nombre Completo",
+      "phone": "Número de Teléfono",
+      "email": "Correo Electrónico",
+      "insuranceType": "Tipo de Seguro",
+      "state": "Estado",
+      "language": "Idioma Preferido",
+      "message": "Mensaje / Detalles Adicionales",
+      "submit": "Solicitar Cotización",
+      "success": "¡Gracias! Nos pondremos en contacto contigo pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "languageEnglish": "Inglés",
+      "languageSpanish": "Español",
+      "selectState": "Selecciona un estado...",
+      "selectInsurance": "Selecciona el tipo de seguro...",
+      "insuranceTypes": {
+        "health": "Seguro Médico",
+        "life": "Seguro de Vida",
+        "dental": "Planes Dentales",
+        "medicare": "Medicare",
+        "supplemental": "Beneficios Suplementarios",
+        "car": "Seguro de Auto",
+        "generalLiability": "Responsabilidad Civil General",
+        "commercial": "Cobertura Comercial",
+        "other": "Otro"
+      },
+      "validation": {
+        "fullNameRequired": "El nombre completo es obligatorio",
+        "phoneRequired": "El número de teléfono es obligatorio",
+        "phoneInvalid": "Por favor ingresa un número de teléfono de EE.UU. válido",
+        "emailRequired": "El correo electrónico es obligatorio",
+        "emailInvalid": "Por favor ingresa un correo electrónico válido",
+        "insuranceTypeRequired": "Por favor selecciona un tipo de seguro",
+        "stateRequired": "Por favor selecciona un estado",
+        "languageRequired": "Por favor selecciona un idioma preferido"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Provision Insurance / Good Deal Insurance Agency. Todos los derechos reservados.",
+    "rights": "Asesora de Seguros Licenciada — Maria Nunez",
+    "hours": "Lun–Vie 9 AM – 6 PM",
+    "afterHours": "También hacemos todo lo posible por estar disponibles los fines de semana y fuera del horario habitual.",
+    "navigation": "Navegación",
+    "contact": "Contáctanos",
+    "followUs": "Síguenos"
+  },
+  "common": {
+    "phone": "+1 (786) 568-0877",
+    "address": "1395 Brickell Ave, Suite 900, Miami FL 33131",
+    "skipToContent": "Saltar al contenido",
+    "loading": "Cargando...",
+    "learnMore": "Conocer Más",
+    "close": "Cerrar menú",
+    "openMenu": "Abrir menú",
+    "whatsappLabel": "Chatear por WhatsApp",
+    "languageToggle": "Cambiar a Inglés"
+  }
+}

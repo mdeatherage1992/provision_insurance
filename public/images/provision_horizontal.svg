@@ -1,0 +1,51 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .gold { stroke: #C9A15B; fill: none; }
+    .gold-fill { fill: #C9A15B; }
+    .text-main {
+      font-family: 'Times New Roman', serif;
+      font-size: 120px;
+      letter-spacing: 6px;
+      fill: #2B2B2B;
+    }
+    .text-sub {
+      font-family: Arial, sans-serif;
+      font-size: 48px;
+      letter-spacing: 12px;
+      fill: #C9A15B;
+      font-weight: 500;
+    }
+  </style>
+
+  <!-- Shield Icon -->
+  <path d="M600 70
+           C645 70 680 80 710 95
+           L710 150
+           C710 220 665 270 600 295
+           C535 270 490 220 490 150
+           L490 95
+           C520 80 555 70 600 70Z"
+        class="gold"
+        stroke-width="6"/>
+
+  <!-- Olive Branch -->
+  <path d="M555 235 C590 185 630 145 675 105" class="gold" stroke-width="7" stroke-linecap="round"/>
+
+  <ellipse cx="575" cy="205" rx="16" ry="42" transform="rotate(-28 575 205)" class="gold" stroke-width="5"/>
+  <ellipse cx="607" cy="175" rx="16" ry="42" transform="rotate(-18 607 175)" class="gold" stroke-width="5"/>
+  <ellipse cx="640" cy="145" rx="16" ry="42" transform="rotate(-8 640 145)" class="gold" stroke-width="5"/>
+  <ellipse cx="655" cy="180" rx="16" ry="42" transform="rotate(38 655 180)" class="gold" stroke-width="5"/>
+
+  <!-- Decorative Lines -->
+  <line x1="120" y1="180" x2="430" y2="180" stroke="#C9A15B" stroke-width="4"/>
+  <line x1="770" y1="180" x2="1080" y2="180" stroke="#C9A15B" stroke-width="4"/>
+
+  <line x1="220" y1="448" x2="400" y2="448" stroke="#C9A15B" stroke-width="4"/>
+  <line x1="800" y1="448" x2="980" y2="448" stroke="#C9A15B" stroke-width="4"/>
+
+  <!-- Main Text -->
+  <text x="600" y="400" text-anchor="middle" class="text-main">PROVISION</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="490" text-anchor="middle" class="text-sub">INSURANCE</text>
+</svg>

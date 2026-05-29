@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "personal": "Personal",
+    "commercial": "Commercial",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "hero": {
+    "headline": "Think Insurance — Think Us.",
+    "subheadline": "Your one-stop shop for all your insurance needs — for your family, your health, and your business.",
+    "body": "We are independent advisers. That means we don't work for one insurance company — we work for you. We shop across many carriers to find the best coverage at the best price, every time.",
+    "primaryCta": "Get a Quote",
+    "secondaryCta": "Learn More"
+  },
+  "trustBar": {
+    "independent": "Independent Adviser",
+    "licensed": "Licensed in 8 States",
+    "bilingual": "English & Spanish",
+    "coverage": "Personal & Commercial",
+    "carriers": "Many Carriers, One Call"
+  },
+  "services": {
+    "headline": "What We Cover",
+    "family": {
+      "title": "You & Your Family",
+      "body": "From health and life insurance to dental, Medicare, and your car — we make sure the people you love are always protected.",
+      "cta": "Personal Insurance →"
+    },
+    "business": {
+      "title": "Your Business",
+      "body": "Whether you're a small business owner, self-employed, or run a fleet of trucks — we have the right coverage to keep your business running.",
+      "cta": "Commercial Insurance →"
+    }
+  },
+  "why": {
+    "headline": "We Don't Sell Insurance. We Advise You.",
+    "independent": {
+      "title": "We're Independent",
+      "body": "We work with many carriers so we always find the best option for you, not for us."
+    },
+    "accessible": {
+      "title": "We're Accessible",
+      "body": "Call, text, or WhatsApp us. We respond within 2 hours and we go above and beyond regular business hours."
+    },
+    "language": {
+      "title": "We Speak Your Language",
+      "body": "We serve our clients in English and Spanish, and we understand the needs of diverse communities across Florida and beyond."
+    }
+  },
+  "testimonials": {
+    "headline": "What Our Clients Say"
+  },
+  "instagram": {
+    "headline": "Follow Us @Provisioninsurance",
+    "link": "View on Instagram"
+  },
+  "finalCta": {
+    "text": "Not sure where to start? Just call us — call us anytime — we are always happy to help.",
+    "button": "Call Now"
+  },
+  "about": {
+    "headline": "A Calling to Help People.",
+    "credentialsTitle": "Credentials & Licensing"
+  },
+  "personalLines": {
+    "headline": "Protecting You & Everyone You Love.",
+    "getQuote": "Get a Quote"
+  },
+  "commercialLines": {
+    "headline": "Protecting Your Business, So You Can Focus on Running It.",
+    "scheduleCall": "Schedule a Call"
+  },
+  "contact": {
+    "headline": "Let's Talk. We're Here for You.",
+    "subheadline": "Whether you have a question, need a quote, or just want to review what you already have — reach out. Call us anytime — we are always happy to help.",
+    "calendlyLabel": "Prefer to schedule a call? Pick a time that works for you.",
+    "form": {
+      "fullName": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "insuranceType": "Type of Insurance",
+      "state": "State",
+      "language": "Preferred Language",
+      "message": "Message / Additional Details",
+      "submit": "Request a Quote",
+      "success": "Thank you! We'll be in touch soon.",
+      "error": "Something went wrong. Please try again.",
+      "languageEnglish": "English",
+      "languageSpanish": "Spanish",
+      "selectState": "Select a state...",
+      "selectInsurance": "Select insurance type...",
+      "insuranceTypes": {
+        "health": "Health Insurance",
+        "life": "Life Insurance",
+        "dental": "Dental Plans",
+        "medicare": "Medicare",
+        "supplemental": "Supplemental Benefits",
+        "car": "Car Insurance",
+        "generalLiability": "General Liability",
+        "commercial": "Commercial Coverage",
+        "other": "Other"
+      },
+      "validation": {
+        "fullNameRequired": "Full name is required",
+        "phoneRequired": "Phone number is required",
+        "phoneInvalid": "Please enter a valid US phone number",
+        "emailRequired": "Email address is required",
+        "emailInvalid": "Please enter a valid email address",
+        "insuranceTypeRequired": "Please select a type of insurance",
+        "stateRequired": "Please select a state",
+        "languageRequired": "Please select a preferred language"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Provision Insurance / Good Deal Insurance Agency. All rights reserved.",
+    "rights": "Licensed Insurance Adviser — Maria Nunez",
+    "hours": "Mon–Fri 9 AM – 6 PM",
+    "afterHours": "We also do our best to be available on weekends and after hours.",
+    "navigation": "Navigation",
+    "contact": "Contact Us",
+    "followUs": "Follow Us"
+  },
+  "common": {
+    "phone": "+1 (786) 568-0877",
+    "address": "1395 Brickell Ave, Suite 900, Miami FL 33131",
+    "skipToContent": "Skip to content",
+    "loading": "Loading...",
+    "learnMore": "Learn More",
+    "close": "Close menu",
+    "openMenu": "Open menu",
+    "whatsappLabel": "Chat on WhatsApp",
+    "languageToggle": "Switch to Spanish"
+  }
+}
