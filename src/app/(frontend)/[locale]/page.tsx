@@ -19,13 +19,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: locale === 'es'
-      ? 'Maria Nunez Insurance — Seguro de Salud, Vida y Más | Miami, FL'
-      : 'Maria Nunez Insurance — Health, Life & More | Miami, FL',
+      ? 'Provision Insurance — Seguro de Salud, Vida y Más | Miami, FL'
+      : 'Provision Insurance — Health, Life & More | Miami, FL',
     description: locale === 'es'
       ? 'Asesora de seguros independiente en Miami. Seguros de salud, vida, dental, Medicare, auto y comerciales. Servicio en inglés y español.'
       : 'Independent insurance adviser in Miami. Health, life, dental, Medicare, auto, and commercial insurance. Serving clients in English and Spanish.',
     openGraph: {
-      title: 'Maria Nunez Insurance',
+      title: 'Provision Insurance',
       description: t('subheadline'),
       type: 'website',
       locale: locale === 'es' ? 'es_US' : 'en_US',
@@ -88,7 +88,7 @@ export default async function HomePage({ params }: Props) {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': ['LocalBusiness', 'InsuranceAgency'],
-    name: 'Maria Nunez Insurance',
+    name: 'Provision Insurance',
     description: 'Independent insurance adviser offering health, life, dental, Medicare, auto, and commercial insurance.',
     url: process.env.NEXT_PUBLIC_SERVER_URL,
     telephone: '+17865680877',

@@ -43,7 +43,7 @@ export function buildQuoteEmailHtml(data: QuoteEmailData): string {
   <div style="background: white; border-radius: 12px; padding: 32px; border: 1px solid #E8D5A3;">
     <div style="border-bottom: 2px solid #B8903A; padding-bottom: 16px; margin-bottom: 24px;">
       <h1 style="color: #B8903A; margin: 0; font-size: 24px;">New Quote Request</h1>
-      <p style="color: #666; margin: 4px 0 0;">Via MarianunezInsurance.com</p>
+      <p style="color: #666; margin: 4px 0 0;">Via ProvisionAssurance.com</p>
     </div>
 
     <table style="width: 100%; border-collapse: collapse;">
@@ -91,8 +91,8 @@ export function buildQuoteEmailHtml(data: QuoteEmailData): string {
 }
 
 export async function sendQuoteEmail(data: QuoteEmailData): Promise<void> {
-  const fromEmail = process.env.FROM_EMAIL || 'quotes@marianunezinsurance.com'
-  const toEmail = process.env.MARIA_EMAIL || 'maria@marianunezinsurance.com'
+  const fromEmail = process.env.FROM_EMAIL || 'quotes@provisionassurance.com'
+  const toEmail = process.env.MARIA_EMAIL || 'maria@provisionassurance.com'
 
   if (!process.env.RESEND_API_KEY) {
     console.log('[Email] RESEND_API_KEY not set — skipping email send in dev')

@@ -12,8 +12,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
   return {
     title: locale === 'es'
-      ? 'Contacto — Solicitar Cotización | Maria Nunez Insurance Miami'
-      : 'Contact — Request a Quote | Maria Nunez Insurance Miami',
+      ? 'Contacto — Solicitar Cotización | Provision Insurance Miami'
+      : 'Contact — Request a Quote | Provision Insurance Miami',
     description: locale === 'es'
       ? 'Solicita una cotización de seguro o agenda una llamada. Contáctanos por teléfono, WhatsApp o correo electrónico. Atención en inglés y español.'
       : 'Request an insurance quote or schedule a call. Reach us by phone, WhatsApp, or email. Serving clients in English and Spanish.',
@@ -23,10 +23,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ContactPage',
-  name: 'Maria Nunez Insurance — Contact',
+  name: 'Provision Insurance — Contact',
   mainEntity: {
     '@type': 'InsuranceAgency',
-    name: 'Maria Nunez Insurance',
+    name: 'Provision Insurance',
     telephone: '+17865680877',
     address: {
       '@type': 'PostalAddress',
@@ -44,7 +44,7 @@ export default async function ContactPage({ params }: Props) {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'contact' })
 
-  const calendlyUrl = process.env.CALENDLY_URL || 'https://calendly.com/marianunez/insurance-consultation'
+  const calendlyUrl = process.env.CALENDLY_URL || 'https://calendly.com/provisionassurance/30min'
 
   const contactItems = [
     {
@@ -75,7 +75,7 @@ export default async function ContactPage({ params }: Props) {
         </svg>
       ),
       label: '@Provisioninsurance',
-      href: 'https://www.instagram.com/marianunezinsurance',
+      href: 'https://www.instagram.com/provisioninsurance',
     },
     {
       icon: (

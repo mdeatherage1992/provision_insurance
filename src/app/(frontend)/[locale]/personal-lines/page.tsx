@@ -13,8 +13,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
   return {
     title: locale === 'es'
-      ? 'Seguros Personales — Salud, Vida, Dental, Medicare | Maria Nunez'
-      : 'Personal Insurance — Health, Life, Dental, Medicare | Maria Nunez',
+      ? 'Seguros Personales — Salud, Vida, Dental, Medicare | Provision Insurance'
+      : 'Personal Insurance — Health, Life, Dental, Medicare | Provision Insurance',
     description: locale === 'es'
       ? 'Seguros de salud, vida, dental, Medicare, beneficios suplementarios y auto. Cobertura para ti y tu familia en Florida y 7 estados más.'
       : 'Health, life, dental, Medicare, supplemental benefits, and auto insurance. Coverage for you and your family in Florida and 7 more states.',

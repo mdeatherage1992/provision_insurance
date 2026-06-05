@@ -13,8 +13,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
   return {
     title: locale === 'es'
-      ? 'Nosotros — Maria Nunez Insurance | Miami, FL'
-      : 'About — Maria Nunez Insurance | Miami, FL',
+      ? 'Nosotros — Provision Insurance | Miami, FL'
+      : 'About — Provision Insurance | Miami, FL',
     description: locale === 'es'
       ? 'Conoce a Maria Nunez, asesora de seguros licenciada en Miami. Su historia, su misión y su compromiso con las familias que sirve.'
       : 'Meet Maria Nunez, licensed insurance adviser in Miami. Her story, her mission, and her commitment to the families she serves.',

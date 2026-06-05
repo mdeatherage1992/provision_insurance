@@ -12,8 +12,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
   return {
     title: locale === 'es'
-      ? 'Seguros Comerciales — Responsabilidad, Camiones, Auto | Maria Nunez'
-      : 'Commercial Insurance — Liability, Truckers, Commercial Auto | Maria Nunez',
+      ? 'Seguros Comerciales — Responsabilidad, Camiones, Auto | Provision Insurance'
+      : 'Commercial Insurance — Liability, Truckers, Commercial Auto | Provision Insurance',
     description: locale === 'es'
       ? 'Seguros comerciales en Florida: responsabilidad civil, profesional, camioneros, auto comercial, BOP y compensación laboral.'
       : 'Commercial insurance in Florida: general liability, professional, truckers, commercial auto, BOP, and workers compensation.',
@@ -45,7 +45,7 @@ export default async function CommercialLinesPage({ params }: Props) {
   const t = await getTranslations({ locale, namespace: 'commercialLines' })
 
   const services = locale === 'es' ? servicesES : servicesEN
-  const calendlyUrl = process.env.CALENDLY_URL || 'https://calendly.com/marianunez/insurance-consultation'
+  const calendlyUrl = process.env.CALENDLY_URL || 'https://calendly.com/provisionassurance/30min'
 
   const intro = locale === 'es'
     ? "Todo negocio enfrenta riesgos. Ya sea que estés comenzando o llevas años operando, el seguro correcto garantiza que un evento inesperado no ponga en riesgo todo lo que has construido. Trabajamos con dueños de negocios en toda la Florida para encontrar cobertura que realmente se adapte — no una póliza universal."
