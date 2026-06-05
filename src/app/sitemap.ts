@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 
-const baseUrl = process.env.NEXT_PUBLIC_SERVER_URL || 'https://marianunezinsurance.com'
+const baseUrl = process.env.NEXT_PUBLIC_SERVER_URL || 'https://provisionassurance.com'
 const locales = ['en', 'es']
 
 const pages = ['', '/about', '/personal-lines', '/commercial-lines', '/contact']
