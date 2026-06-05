@@ -65,7 +65,7 @@ export default async function Footer({ locale }: FooterProps) {
             <h3 className="font-heading font-bold text-dark mb-4">{t('followUs')}</h3>
             <div className="space-y-3">
               <a
-                href="https://www.instagram.com/provisioninsurance"
+                href="https://www.instagram.com/provision_insurance"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-dark/70 hover:text-primary-gold text-sm transition-colors"

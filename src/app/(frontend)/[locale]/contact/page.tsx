@@ -75,7 +75,7 @@ export default async function ContactPage({ params }: Props) {
         </svg>
       ),
       label: '@Provisioninsurance',
-      href: 'https://www.instagram.com/provisioninsurance',
+      href: 'https://www.instagram.com/provision_insurance',
     },
     {
       icon: (

@@ -34,7 +34,7 @@ async function fetchPosts(feedId: string): Promise<BeholdPost[]> {
 export default async function InstagramFeed({
   headline,
   beholdFeedId,
-  instagramUrl = 'https://www.instagram.com/provisioninsurance',
+  instagramUrl = 'https://www.instagram.com/provision_insurance',
 }: InstagramFeedProps) {
   const posts = beholdFeedId ? await fetchPosts(beholdFeedId) : []
 

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@provisioninsurance',
+    site: '@provision_insurance',
   },
   icons: {
     icon: '/icon.svg',
