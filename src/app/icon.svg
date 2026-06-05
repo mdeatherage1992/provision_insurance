@@ -16,6 +16,9 @@
     }
   </style>
 
+  <!-- White background -->
+  <rect width="400" height="420" fill="white"/>
+
   <!-- Shield Icon -->
   <path d="M200 40
            C230 40 255 48 272 58
