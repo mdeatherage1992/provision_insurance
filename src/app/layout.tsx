@@ -9,6 +9,14 @@ export const metadata: Metadata = {
     siteName: 'Provision Insurance',
     type: 'website',
     locale: 'en_US',
+    images: [
+      {
+        url: '/images/provision_horizontal.png',
+        width: 1200,
+        height: 600,
+        alt: 'Provision Insurance',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
