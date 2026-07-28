@@ -102,6 +102,16 @@ export default async function AboutPage({ params }: Props) {
 
             {/* Sidebar */}
             <aside className="space-y-8">
+              {/* Photo */}
+              <Image
+                src="/images/maria_picture.JPG"
+                alt="Maria Nunez"
+                width={800}
+                height={1000}
+                priority
+                className="w-full h-auto rounded-2xl border-4 border-light-gold shadow-md"
+              />
+
               {/* Credentials */}
               <div className="bg-white rounded-xl p-6 border border-light-gold shadow-sm">
                 <h2 className="font-heading text-lg font-bold text-dark mb-4">{t('credentialsTitle')}</h2>
